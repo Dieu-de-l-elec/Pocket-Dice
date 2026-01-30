@@ -11,14 +11,12 @@ It's a dice, barely bigger than a coin cell (CR2016), based upon the ATtiny1616,
 - programmation of the MCU via **UPDI**
 
 # Sofware:
-Arduino code using SpenceKonde MegaTinyCore
+Arduino code using SpenceKonde **MegaTinyCore** and **Xoshiro128+** TRNG algorithm
 
 # PCB design:
-2 Layer PCB designed in EASYEDA (Pro edition). 26 by 26mm square, panelized in a 3 by 3 panel.
-.8mm board thickness
+2 Layer PCB designed in EASYEDA (Pro edition). 26 by 26mm square, panelized in a 3 by 3 panel. 0.8mm board thickness
 
 # schematic:
-
-
 <img src="Pocket_Dice_Schematic.svg" alt="SCHEMATIC" width="2300"/>
 
+# PCB Layout:
