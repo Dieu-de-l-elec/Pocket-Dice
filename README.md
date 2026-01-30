@@ -15,7 +15,7 @@ It's a dice, barely bigger than a coin cell (CR2016), based upon the ATtiny1616,
 - based on **Xoshiro128+** TRNG algorithm
 - button **press duration recorded** ⇒ entropy source for TRNG (along with micros() and analog noise on floating pin)
 
-- programmation of the MCU via **UPDI**
+- MCU programmable via **UPDI**
 
 # Sofware:
 Arduino code using SpenceKonde **MegaTinyCore** and **Xoshiro128+** TRNG algorithm
