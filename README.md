@@ -2,6 +2,10 @@
 It's a dice, barely bigger than a coin cell (CR2016), based upon the ATtiny1616, with 7 orange 0603 LEDs . With the press duration being recorded, it should display a near truly random generated number, unlike pseudo random number generator algorithms.
 
 ![banner] (Pocket-Dice/assets/banner.png)
+![banner] (assets/banner.png)
+<img width="1133" height="711" alt="image" src="https://github.com/user-attachments/assets/c93ce692-e1a0-4acb-8801-4b84eb428e15" />
+<img src="https://github.com/user-attachments/assets/62e9e074-a016-43c2-8e1c-872b9c302199" width="100%"/>
+
 
 # Key features:
 - 7x 0603 LEDs (orange LEDs)
