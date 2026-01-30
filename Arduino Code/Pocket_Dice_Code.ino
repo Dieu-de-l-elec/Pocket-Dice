@@ -12,7 +12,7 @@ byte randomOutcome = 1;
 
 bool stateBtn = false;
 volatile bool intAttribute = 1;       // interrupt attribute : 0 => button released (roll), 1 => button pressed (wake up)
-// useful to know wether the intterupt means 'button pressed' or 'button released'
+                                      // useful to know whether the interrupt means 'button pressed' or 'button released'
 
 uint8_t LEDPins [7] {16, 0, 1, 11, 10, 9, 8};
 bool stateLED [7] {0, 0, 0, 0, 0, 0, 0};
