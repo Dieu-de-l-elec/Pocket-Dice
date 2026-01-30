@@ -25,7 +25,7 @@ Arduino code using SpenceKonde **MegaTinyCore** and **Xoshiro128+** TRNG algorit
 # PCB design:
 2 Layer PCB designed in EASYEDA (Pro edition). 26 by 26mm square, panelized in a 3 by 3 panel. 0.8mm board thickness
 
-# schematic:
+# Schematic:
 <img src="Pocket_Dice_Schematic.svg" alt="SCHEMATIC" width="2300"/>
 
 # PCB Layout:
