@@ -18,3 +18,7 @@ Arduino code using SpenceKonde MegaTinyCore
 .8mm board thickness
 
 # schematic:
+
+
+<img src="Pocket_Dice_Schematic.svg" alt="SCHEMATIC" width="2300"/>
+
