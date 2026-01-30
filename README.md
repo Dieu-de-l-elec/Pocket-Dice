@@ -14,6 +14,8 @@ It's a dice, barely bigger than a coin cell (CR2016), based upon the ATtiny1616,
 - **Attiny1616** MCU: 16Kb Flash, Power Down sleep, extraordinarily low current consumption (VDD = 3V : 300µA running @1MHz, and 100nA in PWR down mode)
 - based on **Xoshiro128+** TRNG algorithm
 - button **press duration recorded** ⇒ entropy source for TRNG (along with micros() and analog noise on floating pin)
+- Sleek design: 7mm thick, 30mm by 30mm
+- 1mm acrylic sheet on top that can be pressed (a bit of flex) to press the button underneath
 
 - MCU programmable via **UPDI**
 
@@ -47,8 +49,9 @@ Arduino code using SpenceKonde **MegaTinyCore** and **Xoshiro128+** TRNG algorit
 <img alt="RENDER 2" src="https://github.com/user-attachments/assets/afa2c711-d2a6-49f9-ac99-8359f1a7261a"  width="100%"/>
 <img alt="RENDER 3" src="https://github.com/user-attachments/assets/da772d6f-1569-43b1-b008-da5a0a6a6695"  width="100%"/>
 <img alt="RENDER 4" src="https://github.com/user-attachments/assets/415eab99-a659-480f-a0b6-5c6b2d0502c1"  width="100%"/>
-<img alt="RENDER 5" src="https://github.com/user-attachments/assets/eb0606d3-132a-487c-a1c7-787f2973a8d3"  width="100%"/>
 <img alt="RENDER 6" src="https://github.com/user-attachments/assets/c7d71b85-10a4-421b-8457-357ab919a68e"  width="100%"/>
+<img alt="RENDER 5" src="https://github.com/user-attachments/assets/eb0606d3-132a-487c-a1c7-787f2973a8d3"  width="100%"/>
+
 
 
 
