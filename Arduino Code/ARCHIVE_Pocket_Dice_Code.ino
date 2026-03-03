@@ -1,3 +1,6 @@
+/* This code is NOT RECOMMENDED FOR USE. It's only kept here for archive. See intead Pocket_Dice_Code_V2.ino
+ */ 
+
 #include <avr/sleep.h>
 #include <avr/interrupt.h>
 
