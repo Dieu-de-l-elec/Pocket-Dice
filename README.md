@@ -69,7 +69,7 @@ Qty	| Part	| Value | link
 7 | Orange LED 0603 XL-1608UOC-06 | Vf=2.3V | https://www.lcsc.com/product-detail/C965800.html
 1	| Custom PCB | |
 --- |  |  | 
-1 | 1mm thick acrylic sheet | transparent |
+1 | 1mm thin transparent acrylic sheet | |
 1 | 3D printed case | MJF - PA12S-HP Nylon | 
 1 | CR2016 Coin Cell | | 
 
