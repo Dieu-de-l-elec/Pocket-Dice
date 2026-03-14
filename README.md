@@ -13,7 +13,7 @@ This pocket-sized dice will be my everyday companions for tabletop games or any 
 
 # Key features:
 - 7x 0603 LEDs (orange LEDs)
-- extremely **low power consumption** (max 4mA continuous goal) ⇒ long battery life (CR2016), but dim LEDs...
+- extremely **low power consumption** (2mA average while displaying) ⇒ long battery life (CR2016), but dim LEDs...
 - **Attiny1616** MCU: 16Kb Flash, Power Down sleep, extraordinarily low current consumption (VDD = 3V : 300µA running @1MHz, and 100nA in PWR down mode)
 - based on **Xoshiro128+** TRNG algorithm
 - button **press duration recorded** ⇒ entropy source for TRNG (along with `micros()` and analog noise on floating pin)
