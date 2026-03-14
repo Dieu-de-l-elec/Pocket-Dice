@@ -67,11 +67,11 @@ Qty	| Part	| Value | link
 1 | Resistor 0402| 200k | https://www.lcsc.com/product-detail/C2906866.html
 7 | Resistor 0402| 1k | https://www.lcsc.com/product-detail/C2906864.html
 7 | Orange LED 0603 XL-1608UOC-06 | Vf=2.3V | https://www.lcsc.com/product-detail/C965800.html
-1	| Custom PCB | |
+1	| Custom PCB | | I used JLCPCB services https://jlcpcb.com
 --- |  |  | 
-1 | 1mm thin transparent acrylic sheet | |
-1 | 3D printed case | MJF - PA12S-HP Nylon | 
-1 | CR2016 Coin Cell | | 
+1 | 1mm thin transparent acrylic sheet | |	I used Snijlab laser cutting services https://snijlab.nl/en
+1 | 3D printed case | MJF - PA12S-HP Nylon | 	I used JLC3DP MJF Nylon PA12S-HP 3D printing services https://jlc3dp.com/3d-printing-quote
+1 | CR2016 Coin Cell | | Physical store
 
 
 
