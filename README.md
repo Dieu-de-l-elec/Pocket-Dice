@@ -55,6 +55,24 @@ Arduino code using SpenceKonde **MegaTinyCore** and **Xoshiro128+** TRNG algorit
 <img alt="RENDER 6" src="https://github.com/user-attachments/assets/c7d71b85-10a4-421b-8457-357ab919a68e"  width="100%"/>
 <img alt="RENDER 5" src="https://github.com/user-attachments/assets/eb0606d3-132a-487c-a1c7-787f2973a8d3"  width="100%"/>
 
+#BOM:
+
+Qty	| Part	| Value | link
+--- | --- | --- | ---
+1 | ATtiny1616-MNR | | https://www.lcsc.com/product-detail/C507118.html
+1 | CR2016 Cell SMD metal holder | | https://www.lcsc.com/product-detail/C2979176.html
+1 | MLCC 0805 | 10µF | https://www.lcsc.com/product-detail/C1713.html
+1 | Tactile Switch TS-1075S-A1B2-D4 | | https://www.lcsc.com/product-detail/C492872.html
+2 | MLCC 0603 | 100nF | https://www.lcsc.com/product-detail/C66501.html
+1 | Resistor 0402| 200k | https://www.lcsc.com/product-detail/C2906866.html
+7 | Resistor 0402| 1k | https://www.lcsc.com/product-detail/C2906864.html
+7 | Orange LED 0603 XL-1608UOC-06 | Vf=2.3V | https://www.lcsc.com/product-detail/C965800.html
+1	| Custom PCB | |
+--- | --- | --- | ---
+1 | 1mm thick acrylic sheet | transparent |
+1 | 3D printed case | MJF - PA12S-HP Nylon | 
+1 | CR2016 Coin Cell | | 
+
 
 
 
