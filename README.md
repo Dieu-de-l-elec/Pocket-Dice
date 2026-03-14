@@ -58,7 +58,7 @@ Arduino code using SpenceKonde **MegaTinyCore** and **Xoshiro128+** TRNG algorit
 #BOM:
 
 Qty	| Part	| Value | link
-- | | |
+--- | --- | --- | ---
 1 | ATtiny1616-MNR | | https://www.lcsc.com/product-detail/C507118.html
 1 | CR2016 Cell SMD metal holder | | https://www.lcsc.com/product-detail/C2979176.html
 1 | MLCC 0805 | 10µF | https://www.lcsc.com/product-detail/C1713.html
@@ -68,7 +68,7 @@ Qty	| Part	| Value | link
 7 | Resistor 0402| 1k | https://www.lcsc.com/product-detail/C2906864.html
 7 | Orange LED 0603 XL-1608UOC-06 | Vf=2.3V | https://www.lcsc.com/product-detail/C965800.html
 1	| Custom PCB | |
-- | | |
+--- |  |  | 
 1 | 1mm thick acrylic sheet | transparent |
 1 | 3D printed case | MJF - PA12S-HP Nylon | 
 1 | CR2016 Coin Cell | | 
