@@ -15,10 +15,10 @@ byte prevDice = 0;
 byte outcome = 1;
 byte randomOutcome = 1;
 
-int counterInt = 0;
+//int counterInt = 0; // no longer needed
 volatile unsigned long counterIntTime = 0;
 
-bool stateBtn = false;
+// bool stateBtn = false; // no longer needed
 volatile bool intAttribute = 1;       // interrupt attribute : 0 => button released (roll), 1 => button pressed (wake up)
 // useful to know wether the intterupt means 'button pressed' or 'button released'
 
