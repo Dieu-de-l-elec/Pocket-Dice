@@ -1,5 +1,8 @@
 # Pocket Dice
 It's a dice, barely bigger than a coin cell (CR2016), based upon the ATtiny1616, with 7 orange 0603 LEDs . With the press duration being recorded, it should display a near truly random generated number, unlike pseudo random number generator algorithms.
+
+This pocket-sized dice will be my everyday companions for tabletop games or any 6D dice requiring game.
+
 <br><br>
 <p align="center">
   <img alt="RENDER 1 Banner" src="https://github.com/user-attachments/assets/c211962b-5a39-4d98-9aed-3e9bfd04f616" width="44.65%" />
@@ -10,13 +13,13 @@ It's a dice, barely bigger than a coin cell (CR2016), based upon the ATtiny1616,
 
 # Key features:
 - 7x 0603 LEDs (orange LEDs)
--  extremely **low power consumption** (max 4mA continuous goal) ⇒ long battery life (CR2016), but dim LEDs...
+- extremely **low power consumption** (max 4mA continuous goal) ⇒ long battery life (CR2016), but dim LEDs...
 - **Attiny1616** MCU: 16Kb Flash, Power Down sleep, extraordinarily low current consumption (VDD = 3V : 300µA running @1MHz, and 100nA in PWR down mode)
 - based on **Xoshiro128+** TRNG algorithm
-- button **press duration recorded** ⇒ entropy source for TRNG (along with micros() and analog noise on floating pin)
+- button **press duration recorded** ⇒ entropy source for TRNG (along with `micros()` and analog noise on floating pin)
 - Sleek design: 7mm thick, 30mm by 30mm
+- 3d printed enclosure: I used JLC3DP 3D printing service, with Nylon PA12 (MJF), to get a premium case, but it works too with an FDM printer or with SLA too
 - 1mm acrylic sheet on top that can be pressed (a bit of flex) to press the button underneath
-
 - MCU programmable via **UPDI**
 
 # Sofware:
