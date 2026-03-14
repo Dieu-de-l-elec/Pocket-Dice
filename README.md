@@ -55,7 +55,7 @@ Arduino code using SpenceKonde **MegaTinyCore** and **Xoshiro128+** TRNG algorit
 <img alt="RENDER 6" src="https://github.com/user-attachments/assets/c7d71b85-10a4-421b-8457-357ab919a68e"  width="100%"/>
 <img alt="RENDER 5" src="https://github.com/user-attachments/assets/eb0606d3-132a-487c-a1c7-787f2973a8d3"  width="100%"/>
 
-#BOM:
+# BOM:
 
 Qty	| Part	| Value | link
 --- | --- | --- | ---
