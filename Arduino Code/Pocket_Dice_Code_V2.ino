@@ -27,9 +27,6 @@ uint8_t floatingPins [9] {PIN_PA2, PIN_PA6, PIN_PA7, PIN_PB5, PIN_PB4, PIN_PA1, 
 bool stateLED [7] {0, 0, 0, 0, 0, 0, 0};
 
 void setup() {
-
-  //delay (25000);
-  //pinMode (PIN_PA0, OUTPUT
   pinMode(BUTTON, INPUT);
 
   for (int p = 0; p <= 6; p++) {
@@ -103,14 +100,14 @@ void loop() {
 void MCUSleep()  {
   PORTB.PIN2CTRL = PORT_ISC_INTDISABLE_gc;                 // disabling interrupts so it don't disturb
   for (int p = 0; p <= 6; p++) {          // LED GPIOs OFF
-    digitalWrite (LEDPins[p], LOW);//pinMode (LEDPins[p], INPUT);
+    digitalWrite (LEDPins[p], LOW);
   }
-  for (int p = 0; p <= 8; p++) {          // LED GPIOs OFF
-    pinMode (floatingPins[p], OUTPUT); //INPUT?
+  for (int p = 0; p <= 8; p++) {
+    pinMode (floatingPins[p], OUTPUT); 
   }
 
   ADC0.CTRLA &= ~ADC_ENABLE_bm;
-  PORTA.PIN2CTRL = PORT_ISC_INTDISABLE_gc;//{PIN_PA2, PIN_PA6, PIN_PA7, PIN_PB5, PIN_PB4, PIN_PA1, PIN_PC3, PIN_PC2, PIN_PB3};
+  PORTA.PIN2CTRL = PORT_ISC_INTDISABLE_gc; //{PIN_PA2, PIN_PA6, PIN_PA7, PIN_PB5, PIN_PB4, PIN_PA1, PIN_PC3, PIN_PC2, PIN_PB3};
   PORTA.PIN6CTRL = PORT_ISC_INTDISABLE_gc;
   PORTA.PIN7CTRL = PORT_ISC_INTDISABLE_gc;
   PORTB.PIN5CTRL = PORT_ISC_INTDISABLE_gc;
@@ -126,7 +123,7 @@ void MCUSleep()  {
   sei();
   sleep_cpu();
   for (int p = 0; p <= 6; p++) {          // LED GPIOs OFF
-    pinMode (LEDPins[p], OUTPUT); //digitalWrite (LEDPins[p], LOW);
+    pinMode (LEDPins[p], OUTPUT);
   }
 
   ADC0.CTRLA |= ADC_ENABLE_bm;
@@ -140,7 +137,6 @@ ISR (PORTB_PORT_vect) {
     intAttribute = 1;
   }
   else {                              // interrupt when button released (roll dice)
-    //intAttribute = 0;
     counterIntTime = millis();
   }
 }
@@ -149,7 +145,7 @@ void displayPrev() {
   for (int i = 0; i < 4; i++) {
     displayDice (prevDice);                     // display previous outcome
     refreshDisplay(600);                        //    for 4 seconds total
-    displayDice (0);                     // display previous outcome
+    displayDice (0);
     refreshDisplay(400);
   }
 }
