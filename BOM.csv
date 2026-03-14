@@ -7,7 +7,7 @@ Qty, Part, Value, LCSC Part Number, price jan. 2026 (/MOQ), Link
   1, SMD resistor 0402, 200k, C2906866, $0.05 (/100), https://www.lcsc.com/product-detail/C2906866.html
   7, SMD resistor 0402, 1k, C2906864, $0.05 (/100), https://www.lcsc.com/product-detail/C2906864.html
   7, Orange LED XL-1608UOC-06 0603, Vf=2.3V, C965800, $0.69 (/100), https://www.lcsc.com/product-detail/C965800.html
-  1, Custom PCB,,,$4, https://jlcpcb.com 
+  1, Custom PCB,,,$4, I used JLCPCB services https://jlcpcb.com 
 ,,,,,
 ,,,,,
 ,1mm thin transparent acrylic sheet,,,, I used Snijlab laser cutting services https://snijlab.nl/en
