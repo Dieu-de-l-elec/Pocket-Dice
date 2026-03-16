@@ -7,6 +7,7 @@ This pocket-sized dice will be my everyday companions for tabletop games or any 
 <p align="center">
   <img alt="RENDER 1 Banner" src="https://github.com/user-attachments/assets/c211962b-5a39-4d98-9aed-3e9bfd04f616" width="44.65%" />
   <img alt="PCB Banner" src="https://github.com/user-attachments/assets/f0334381-cef0-48db-9a11-e1367e60ca51" width="44%"/>
+  <img alt="Build Image" src="BUILD IMG/Build  (1).jpg" width="89.2%"/>
 </p>
 <br><br>
 
@@ -18,12 +19,13 @@ This pocket-sized dice will be my everyday companions for tabletop games or any 
 - based on **Xoshiro128+** TRNG algorithm
 - button **press duration recorded** ⇒ entropy source for TRNG (along with `micros()` and analog noise on floating pin)
 - Sleek design: 7mm thick, 30mm by 30mm
-- 3d printed enclosure: I used JLC3DP 3D printing service, with Nylon PA12 (MJF), to get a premium case, but it works too with an FDM printer or with SLA too
-- 1mm acrylic sheet on top that can be pressed (a bit of flex) to press the button underneath
+- 3d printed enclosure: I used JLC3DP 3D printing service, with Nylon PA12 (MJF) and 8001 transparent resin (SLA), to get a premium case, but it works too with an FDM printer.
+- 1mm acrylic sheet on top that can be pressed on the lower half (a bit of flex) to press the button underneath
 - MCU programmable via **UPDI**
 
 # Sofware:
 Arduino code using SpenceKonde **MegaTinyCore** and **Xoshiro128+** TRNG algorithm
+Pressing and holding the button rolls the dice, and once released, settle down to the randomly generated number after another 3 rolls slowing down, to add a bit of animation. The dice outcome stays displayed for another 4 seconds, and then the dice goes into Power Down mode. If we want the previous outcome to be displayed again, the button can be shortly pressed, which will makes the dice display the previous outcome with a blinking animation, to ensure it can't be misinterpreted as another roll.
 
 # PCB design:
 2 Layer PCB designed in EASYEDA (Pro edition). 26 by 26mm square, panelized in a 3 by 3 panel. 0.8mm board thickness
@@ -54,6 +56,24 @@ Arduino code using SpenceKonde **MegaTinyCore** and **Xoshiro128+** TRNG algorit
 <img alt="RENDER 4" src="https://github.com/user-attachments/assets/415eab99-a659-480f-a0b6-5c6b2d0502c1"  width="100%"/>
 <img alt="RENDER 6" src="https://github.com/user-attachments/assets/c7d71b85-10a4-421b-8457-357ab919a68e"  width="100%"/>
 <img alt="RENDER 5" src="https://github.com/user-attachments/assets/eb0606d3-132a-487c-a1c7-787f2973a8d3"  width="100%"/>
+
+# Build Images:
+
+The top acrylic plate can be glued to the case with a few small drops of cyanoacrylate on the side. It would only be glued to the case along the upper edge, and on the upper half of the sides, to let the plate flex when pressed.
+
+<img width="1763" height="1224" alt="Case dissasembled dice" src="BUILD IMG/Case (4).jpg" />
+<img width="1763" height="1224" alt="Nylon PA12 MJF case" src="BUILD IMG/Case (5).jpg" />
+
+<img width="1763" height="1224" alt="Build Image 2" src="BUILD IMG/Build  (2).jpg" />
+<img width="1763" height="1224" alt="Build Image 3" src="BUILD IMG/Build  (3).jpg" />
+<img width="1763" height="1224" alt="Build Image 4" src="BUILD IMG/Build  (4).jpg" />
+<img width="1763" height="1224" alt="Build Image 5" src="BUILD IMG/Build  (5).jpg" />
+<img width="1763" height="1224" alt="Build Image 6" src="BUILD IMG/Build  (6).jpg" />
+<img width="1763" height="1224" alt="Build Image 7" src="BUILD IMG/Build  (7).jpg" />
+<img width="1763" height="1224" alt="Build Image 8" src="BUILD IMG/Build  (8).jpg" />
+
+<img width="1763" height="1224" alt="Build Image 1" src="BUILD IMG/Build  (1).jpg" />
+
 
 # BOM:
 
