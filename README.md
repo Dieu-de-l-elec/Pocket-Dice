@@ -24,7 +24,8 @@ This pocket-sized dice will be my everyday companions for tabletop games or any 
 - MCU programmable via **UPDI**
 
 # Sofware:
-Arduino code using SpenceKonde **MegaTinyCore** and **Xoshiro128+** TRNG algorithm
+Arduino code using SpenceKonde **MegaTinyCore** and **Xoshiro128+** TRNG algorithm.
+
 Pressing and holding the button rolls the dice, and once released, settle down to the randomly generated number after another 3 rolls slowing down, to add a bit of animation. The dice outcome stays displayed for another 4 seconds, and then the dice goes into Power Down mode. If we want the previous outcome to be displayed again, the button can be shortly pressed, which will makes the dice display the previous outcome with a blinking animation, to ensure it can't be misinterpreted as another roll.
 
 # PCB design:
