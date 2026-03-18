@@ -23,6 +23,9 @@ This pocket-sized dice will be my everyday companions for tabletop games or any 
 - 1mm acrylic sheet on top that can be pressed on the lower half (a bit of flex) to press the button underneath
 - MCU programmable via **UPDI**
 
+A demo can be found here:
+https://youtu.be/6FqC9Gx21-w
+
 # Sofware:
 Arduino code using SpenceKonde **MegaTinyCore** and **Xoshiro128+** TRNG algorithm.
 
