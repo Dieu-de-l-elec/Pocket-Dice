@@ -1,5 +1,5 @@
 /* This is the current code (V2) for the Pocket Dice
- * Dieu de l'Elec - C. GAILLARD
+ * Dieu de l'Elec - C.G.
  * 03.03.2026
  */ 
 
